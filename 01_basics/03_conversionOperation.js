@@ -95,3 +95,23 @@ console.log(booleanisLoggedIn)//checking what output does it actually give
 //for a="", i.e empty string then it remains empty when we try to display the value and the type remains string
 //for a=undefined, we get undefined as output and type is string
 //for a =null, null is displayed and type is string
+
+
+//some important points
+console.log("1"+2) //returns 12
+console.log("1"+"4")//returns 14
+console.log(1+"42")//returns 142
+console.log(42+2+"32")//returns 4432
+console.log(1+2+3+"5")//returns 65
+console.log("2"+7+8)//returns 278
+
+//COnclusion
+//javascript will consider the output calue in form of the 1st data type for eg if in console.log("x"+y+z), if x is a string then the entire output will be treated as a string and we will get the result as xyz since it is being treated as as string
+//when console.log(x+y+"z"), where x &y are numbers and z is string,here 1st x+y operation will take place and the result will be _z , where _ will contain the result of x & y
+
+
+//The ++ operator is overloaded for two types of operands: number and BigInt. It first coerces the operand to a numeric value and tests the type of it. It performs BigInt increment if the operand becomes a BigInt; otherwise, it performs number increment.
+
+//If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+
+//If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
