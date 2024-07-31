@@ -60,3 +60,5 @@ JsUSer.greetingTwo=function(){
 
 console.log(JsUSer.greeting())//gives hello Js user
 console.log(JsUSer.greetingTwo())//gives hello Js user,Birajak
+console.log(JsUSer.greetingTwo())//gives hello Js user,Birajak
+
